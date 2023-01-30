@@ -1,28 +1,68 @@
 # README | Final Project
 ### Due: Sunday December 18 at 4:00 PM
 
+This project was my final assignment for the Introduction to Computer Science class for the Fall 2022 semester.
+We were given approximately 2 weeks.
+We began brainstorming about what we wanted to create in the beginning of December
+and submitted our final project on December 18.
+
+My project is a 2-player poker game.
+
+RULES:
+
+For each turn, pass around the computer to see and play your hands.
+After each player gets a hand, a player can play (check, bet/call or fold).
+Each player gets one chance to switch out as many or no cards from their hand.
+Then each player gets one more round of betting.
+Finally, you showdown to see who is the winner!
+You will keep playing until a player has all or no points.
+
+Hands
+0: "high card",
+1: "one pair",
+2: "two pairs",
+3: "three of a kind",
+4: "straight",
+5: "flush",
+6: "full house",
+7: "four of a kind",
+8: "straight flush",
+9: "royal flush"
+
+
 As part of your submission, complete the responses below. Be sure to include your declaration of the Honor Code at the end of this file.
 
 1. Names of anyone with whom you discussed the final project with:
 
 William (Lab Helper)
 Josh Dawson
-Thursday 12/17  7-9pm (lab helper)
+Unknown Lab Helper Thursday 12/17  7-9pm
 
 2. What did you learn during the process of creating your final project?
 
-even if it may seem obvious that self.bet() and self.bet are different, the computer gets confused if we use the same name for a method and an instance variable. 
+Even though it may seem that self.bet() (method) and self.bet (instance variable) are different,
+the computer gets confused if we use the same name for a method and an instance variable.
+As a solution, I used self.turn_bet for the instance variable.
 
-while reversed(list) returns a copy of a reversed list
-list.reverse() modifies the original list and does not return anything 
-(same with sort() and sorted())
+During the process of creating this project,
+I was able to solidify my understanding of the difference between the following two functions:
+reverse(list) - returns a new different list with reverse content
+list.reverse() - modifies the original list and does not have any returned objects
+
+The same can be said with sort() and .sorted() .
+
 
 3. What is one thing you wish you could have done differently?
 
-I wish player 1 and player 2 could take turns on who starts betting first. 
+I wish I had the time to have more players taking turns.
+The difficulty of this was programming the bet method while pertaining to the rules of poker.
+
+Another functionality I would have liked my project to have is the ability for the computer to recognize the hands
+so that the computer can automatically declare the winner.
+This could be implemented by constructing the cards by combining the suit and numbers from different arrays so we can keep track of the suits in the players' hand.
 
 4. Honor Code Declaration:
-I have adhered to the Honor Code in this assignment 
+I have adhered to the Honor Code in this assignment
 
 # Grading
 
