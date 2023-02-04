@@ -1,5 +1,4 @@
 # README | Final Project
-### Due: Sunday December 18 at 4:00 PM
 
 This project was my final assignment for the Introduction to Computer Science class for the Fall 2022 semester.
 We were given approximately 2 weeks.
@@ -14,8 +13,8 @@ For each turn, pass around the computer to see and play your hands.
 After each player gets a hand, a player can play (check, bet/call or fold).
 Each player gets one chance to switch out as many or no cards from their hand.
 Then each player gets one more round of betting.
-Finally, you showdown to see who is the winner!
-You will keep playing until a player has all or no points.
+Finally, showdown to see who the winner is!
+The game ends when a player has no points.
 
 Hands
 0: "high card",
